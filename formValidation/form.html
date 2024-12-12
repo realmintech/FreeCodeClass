@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="form">
+      <p id="error1"></p>
+      <input type="text" placeholder="Username" id="userName" />
+      <p id="error2"></p>
+      <input type="text" placeholder="Email" id="email" />
+      <p id="error3"></p>
+      <input type="text" placeholder="Phone number" id="num" />
+      <br>
+      <p id="error4"></p>
+      <input type="text" placeholder="Password" id="password" />
+      <br>
+      <input type="text" placeholder="Confirm Password" />
+      <button onclick="handleForm()">Submit</button>
+    </div>
+    <script src="form.js"></script>
+  </body>
+</html>
